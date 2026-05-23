@@ -8,6 +8,10 @@ let package = Package(
         .library(
             name: "GenieeMediationUnityAds",
             targets: ["GenieeMediationUnityAdsTarget", "UnityAds"]
+        ),
+        .library(
+            name: "UnityAds",
+            targets: ["UnityAds"]
         )
     ],
     dependencies: [
